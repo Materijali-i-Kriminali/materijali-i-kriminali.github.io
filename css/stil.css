@@ -1,0 +1,54 @@
+body
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+hr
+{
+    width: 100px;
+}
+a
+{
+    color: white;
+}
+#naslovTekst
+{
+    margin-top: -100px;
+    text-decoration: none;
+}
+#mikLogo
+{
+    margin-top: -80px;
+    height: 300px;
+    width: 320px;
+}
+@media screen and (max-width: 1200px) 
+{
+    #mikLogo
+    {
+        margin-top: -160px;
+        height: 600px;
+        width: 620px;
+    }
+    hr
+    {
+        border: 2px solid;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 200px;
+    }
+    #naslovTekst
+    {
+        margin-top: -200px;
+        font-size: 64px;
+    }
+    .poveznice
+    {
+        font-size: 32px;
+    }
+    .tekst
+    {
+        font-size: 32px;
+    }
+}
